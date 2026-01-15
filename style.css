@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+h1{
+    background-color: black;
+    color: aqua;
+    height: 5rem;
+    line-height: 5rem;
+
+}
+.choice {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  
+}
+
+.choice:hover{
+    
+    background-color: black;
+}
+img{
+    height: 140px;
+    width: 140px;
+ object-fit: cover; 
+ border-radius: 50%;
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 3rem;
+
+}
+
+
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  font-size: 2rem;
+}
+
+#uscore, #cscore{
+    font-size: 5rem;
+    margin-top: 5rem;
+
+}
+#msg {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  
+  display: inline;
+  padding: 1rem;
+  border-radius: 25px;
+}
+.message {
+  margin-top: 5rem;
+}
